@@ -47,3 +47,14 @@
 
 11. Comando para saber la ruta del proyecto
     pwd
+
+12. Comando para simular dispositivos en mi maquina
+    npx playwright open --device="iPhone 14 Pro Max" wikipedia.org
+
+13. Comando para guardar pdf
+    npx playwright pdf https://reqres.in/ my-file.pdf
+
+14. Tomar screenshots desde consola personalizados
+    npx playwright --device="iPhone 14 Pro Max" --color-scheme=dark --wait-for-timeout=3000 twitter.com twitter-iphone-image.png
+
+
