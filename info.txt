@@ -1,0 +1,46 @@
+1. Comando para correr los test
+    npx playwright test
+
+2. Comando para correr los test pero con el navegador visible
+    npx playwright test --headed
+
+3. Comando para correr los test pero con el navegador visible y especifico
+    npx playwright test --browser=firefox --headed
+
+4. Comando para correr los test pero en todos los navegadores
+    npx playwright test --browser=all --headed
+
+5. Comando para correr un test en especifico
+    npx playwright test Test/example.spec.ts
+
+6. Comando despues de hacer las actualizaciones de configuracion
+    npx playwright test --config=playwright.config.ts --project=Chromium 
+
+6. Comando para que solo aparezca una linea 
+    npx playwright test --config=playwright.config.ts --project=Chromium --reporter=line
+
+7. Comando para que solo aparezca una lista 
+    npx playwright test --config=playwright.config.ts --project=Chromium --reporter=list
+
+8. Comando para que ejecutar con Junit
+    npx playwright test --config=playwright.config.ts --project=Chromium --reporter=junit
+
+8. Comando para que ejecutar con HTML
+    npx playwright test --config=playwright.config.ts --project=Chromium --reporter=html
+
+    Ejecutar el comando para ver el ultimo HTML 
+    npx playwright show-report
+
+
+    npx playwright test Test/Hooks.spec.ts --config=playwright.config.ts --project=Chromium --reporter=html
+
+    npx playwright test Test/Parallel.spec.ts --config=playwright.config.ts --project=Chromium
+
+9. Para ejecutar los scripts del archivo de configuracion
+    npm run test:chrome // Segun sea el nombre del script
+
+10. Para ejecutar el comando reemplazando los screenshots
+    npx playwright test Test/VisualTesting/visual.spec.ts --config=visual.config.ts --project=Chromium --update-snapshots
+
+
+    npx playwright test Test/API/api.spec.ts --config=api.config.ts --project=Chromium
