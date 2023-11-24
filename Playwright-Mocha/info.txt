@@ -1,0 +1,10 @@
+1. Iniciar el proyecto
+    npm init
+
+2. Instalar independencias
+    npm install playwright mocha chai @types/mocha prettier
+
+3. Comando para correr el test
+    ./node_modules/mocha/bin/mocha --timeout=30000 ./tests
+
+    ./node_modules/mocha/bin/mocha ./tests

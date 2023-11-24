@@ -1,0 +1,14 @@
+1. Installar componentes 
+    npm init
+
+2. Instalar Librerias
+    npm install playwright prettier
+
+3. Ejecutar scraper.ts
+    node scraper.ts
+
+4. Ejecutar varias veces
+    npm run for run in {1..3}; do node scraper.ts; done
+
+5. Instalar agentes random
+    npm install random-useragent

@@ -1,0 +1,18 @@
+1. Iniciar ambiente 
+    npm init --yes
+
+2. Instalar solo playwright
+    npm install playwright codeceptjs prettier
+
+3. Iniciar codeceptjs 
+    npx codeceptjs init
+        - Seleccionar playwright
+
+4. Correr el test
+    npx codeceptjs run
+
+5. Correr el test especificado
+    npx codeceptjs run e2e_test.js
+
+6. Crear un nuevo Page Object Model
+    npx codeceptjs gpo

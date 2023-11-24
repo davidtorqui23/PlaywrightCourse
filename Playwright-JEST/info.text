@@ -1,0 +1,2 @@
+1. installar dependencias
+    npm install playwright jest expect prettier

@@ -1,0 +1,10 @@
+1. Crear un proyecto
+    npm init 
+
+2. Instalar las dependencias de cucumber
+    npm install playwright chai prettier @cucumber/cucumber cucumber-html-reporter
+
+3. Ejecutar comando para ejecutar automatizacion
+    ./node_modules/.bin/cucumber-js --require cucumber.js --require step-definitions/**/*.js -f json:cucumber_report.json --publish-quiet
+
+    
