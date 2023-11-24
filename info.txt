@@ -34,7 +34,7 @@
 
     npx playwright test Test/Hooks.spec.ts --config=playwright.config.ts --project=Chromium --reporter=html
 
-    npx playwright test Test/Parallel.spec.ts --config=playwright.config.ts --project=Chromium
+    npx playwright test Test/E2E/E2E-login.spec.ts --config=E2E.config.ts --project=Chromium
 
 9. Para ejecutar los scripts del archivo de configuracion
     npm run test:chrome // Segun sea el nombre del script
@@ -44,3 +44,6 @@
 
 
     npx playwright test Test/API/api.spec.ts --config=api.config.ts --project=Chromium
+
+11. Comando para saber la ruta del proyecto
+    pwd
